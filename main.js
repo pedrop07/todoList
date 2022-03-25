@@ -61,10 +61,6 @@ window.onload = function() {
                 containers.appendChild(div);
 
                 edit_button.onclick = function() {
-                    /*edit_button.innerHTML = "Editado";
-                    edit_button.classList.remove('edit_hover');
-                    edit_button.classList.add('edited');*/
-
                     if(!input.value){
                         alert('Adicione um item !')
                     } else {
@@ -74,10 +70,6 @@ window.onload = function() {
                         containers.innerHTML = input.value;
                         containers.appendChild(div);
                     }
-
-
-                    //containers.innerHTML = input.value;
-                    //containers.appendChild(div);
                 }
             }
         }
