@@ -1,0 +1,199 @@
+/*  BASIC COMMANDS */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: gadugi;
+    color: #fff;
+}
+
+body{
+    background-color: var(--background-color);
+}
+
+button{
+    cursor: pointer;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+
+/* VAR */
+
+:root {
+    --header-color: #171717;
+    --background-color: #212121;
+    --green-color: rgb(57, 235, 196);
+    --red-color: rgb(228, 52, 52);
+}
+
+
+/* HEADER */
+
+.svg-logo {
+    max-width: 100vw;
+}
+
+svg{
+    width: 100px;
+    height: 50px;
+}
+
+.autor {
+    margin-top: 7px;
+    text-align: center;
+}
+
+mark {
+    color: #6C63FF;
+    background-color: transparent;
+}
+
+header {
+    background-color: var(--header-color);
+    max-width: 100vw;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 500;
+}
+
+
+/* ADD ITEMS */
+
+.items {
+    max-width: 100vw;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.text-items{
+    width: 200px;
+    color: var(--background-color);
+    border-radius: 10px;
+    padding: 7px;
+    border: none;
+}
+
+.add_Button {
+    border: 2.3px solid white;
+    border-radius: 6px;
+    font-size: 1em;
+    color: #fff;
+    background-color: var(--background-color);
+    width: 80px;
+    max-height: 27.5px;
+}
+
+.add_Button:hover {
+    background-color: #fff;
+    color: var(--background-color);
+    transition: all 0.45s ease-out;
+}
+
+.wrap {
+    height: 64.5px;
+}
+
+.error-text {
+    margin-top: 11px;
+    text-align: center;
+}
+
+
+/* LIST */
+
+.list {
+    max-width: 100vw;
+    max-height: 100vh;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.wrapper{
+    background-color: var(--background-color);
+    max-width: 50%;
+    max-height: 100vh;
+    margin: 20px auto;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container_list {
+    background-color: var(--background-color);
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px;
+}
+
+.edit_hover {
+    border: 2px solid var(--green-color);
+    border-radius: 6px;
+    font-size: 0.75em;
+    color: var(--green-color);
+    background-color: var(--background-color);
+    cursor: pointer;
+    min-width: 45px;
+    max-width: 77px;
+    height: 30px;
+    margin: 7px;
+    padding: 4px;
+}
+
+.edit_hover:hover {
+    background-color: var(--green-color);
+    color: var(--header-color);
+    transition: all 0.45s ease-out;
+}
+
+.edited {
+    border: 2px solid #b6b6b6;
+    border-radius: 6px;
+    font-size: 0.75em;
+    color: #b6b6b6;
+    background-color: var(--background-color);
+    cursor: default;
+    min-width: 45px;
+    max-width: 77px;
+    height: 30px;
+    margin: 7px;
+    padding: 4px;
+}
+
+.input_edit {
+    color: var(--background-color);
+    width: 200px;
+    height: 15px;
+    border-radius: 10px;
+    padding: 7px;
+    border: none;
+}
+
+.del_button {
+    border: 2px solid var(--red-color);
+    border-radius: 6px;
+    font-size: 0.75em;
+    color: var(--red-color);
+    background-color: var(--background-color);
+    cursor: pointer;
+    width: 50px;
+    height: 30px;
+}
+
+.del_button:hover {
+    background-color: var(--red-color);
+    color: var(--background-color);
+    transition: all 0.45s ease-out;
+}
